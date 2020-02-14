@@ -25,10 +25,7 @@ def minutes_per_km_0():
         try:
             minutes_per_km_0 = minutes_ran / kms_ran
         except ZeroDivisionError:
-            i = 1
-            while i <= 3:
-                print("Thats Illegal! Im calling the Police! ")
-                i = i + 1
+            print("Thats Illegal! Im calling the Police! ")
             return exit()
         else:
             return minutes_per_km_0
