@@ -3,7 +3,9 @@ def kms_ran_input(message):
         try:
             kms_ran = float(input(message))
         except ValueError:
-            print("Sorry, Could you please enter the number of kilometers you ran only. ")
+            print(
+                "Sorry, Could you please enter the number of kilometres you ran only. "
+            )
             continue
         else:
             return kms_ran
@@ -31,7 +33,7 @@ def minutes_per_km_0():
             return minutes_per_km_0
 
 
-kms_ran = kms_ran_input("How many kilometers did you run? ")
+kms_ran = kms_ran_input("How many kilometres did you run? ")
 minutes_ran = minutes_ran_input("how many Minutes did you run for? ")
 
 
